@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    /* font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif; */
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+.hero_section{
+    height: 500px;
+    margin-top: 2.5rem;
+    background: linear-gradient(190deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.15)), url(images/Banner\ Image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.hero_section > p {
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+}
+.hero_section h1{
+    font-family: 'Merriweather', serif;
+    font-size: 4.7rem;
+    text-align: center;
+    margin-top: 18px;
+}
+.section1{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0rem;
+}
+.section1 > h1{
+    font-size: 4rem;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+.section1__p1 {
+    color: #FF0000;
+    font-weight: 500;
+}
+.section1__p2{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+.section1 img{
+    width: 600px;
+}
+.section2{
+    height: 500px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.15)), url(images/Vectorrr.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 15px;
+}
+.section2__left{
+    flex-basis: 65%;
+    padding-left: 5rem;
+}
+.section2__left h1{
+    font-size: 4.8rem;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+}
+.section2__left p{
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+.section2__left button{
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    padding: 5px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.section2__left button:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.section2__right img{
+    width: 280px;
+}
+.section3{
+    height: 400px;
+    background: linear-gradient(rgba(255, 0, 0, 0.18), rgba(255, 255, 255, 0.9));
+    margin-top: 4rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3 p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.section3 p span{
+    color: #FF0000;
+}
+.section3 button{
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.section4{
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.section4 div{
+    flex-basis: 33.33%;
+}
+.section4__middle{
+    display: flex;
+    justify-content: center;
+}
+.section4__middle img{
+    width: 320px;
+    margin: auto;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 1.2rem;
+}
+.section4__left h3{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+}
+.section4__left h1{
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    margin: 10px 0px;
+}
+.section4__left p{
+    font-family: 'Inter', sans-serif;
+}
+.section4__right h1{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+}
+.section4__right p{
+    font-family: 'Inter', sans-serif;
+    margin: 15px 0;
+}
+.section4__right img{
+    width: 100px;
+}
+.section4__right{
+    padding-left: 1.5rem;
+}
